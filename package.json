@@ -2,9 +2,13 @@
   "name": "ymir-web",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/alcoelho/ymir-web",
   "author": "Alline Marjorie",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
